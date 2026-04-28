@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, #0f172a, #000);
+    color: white;
+}
+
+.signal-box {
+    width: 90px;
+    padding: 15px;
+    background: #222;
+    border-radius: 15px;
+}
+
+/* Lights */
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background: #444;
+}
+
+input {
+    max-width: 300px;
+    background: #444 !important;
+    color: #ccc !important;
+}
+
+input::placeholder {
+    color: #ccc !important;
+}
+
+button {
+    cursor: pointer;
+}
+/* Active Lights */
+.red-on {
+    background: red;
+}
+
+.yellow-on {
+    background: yellow;
+}
+
+.green-on {
+    background: limegreen;
+}
