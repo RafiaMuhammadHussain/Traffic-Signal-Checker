@@ -35,12 +35,15 @@ button {
 /* Active Lights */
 .red-on {
     background: red;
+    box-shadow: 2px 3px 2px rgb(212, 90, 90);
 }
 
 .yellow-on {
     background: yellow;
+    box-shadow: 2px 3px 2px rgb(218, 218, 103);
 }
 
 .green-on {
     background: limegreen;
+    box-shadow: 2px 3px 2px lightgreen;
 }
